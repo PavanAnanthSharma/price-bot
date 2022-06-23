@@ -30,7 +30,7 @@ const KYBER_RATE_ABI = [{"constant":false,"inputs":[{"name":"alerter","type":"ad
 const KYBER_RATE_ADDRESS = '0x96b610046d63638d970e6243151311d8827d69a5'
 const kyberRateContract = new web3.eth.Contract(KYBER_RATE_ABI, KYBER_RATE_ADDRESS)
 
-async checkPair(args) => {
+async checkPair (args) => {
   const { inputTokenSymbol, inputTokenAddress, outputTokenSymbol, outputTokenAddress, inputAmount } = args
 
   const exchangeAddress = await uniswapFactoryContract.methods.getExchange(outputTokenAddress).call()
