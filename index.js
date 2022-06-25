@@ -1,6 +1,6 @@
 require('dotenv').config();
 const express = require('express');
-const bodyParser = require('body-parser')
+const bodyParser = require('body-parser');
 const http = require('http')
 const Web3 = require('web3')
 const HDWalletProvider = require('@truffle/hdwallet-provider')
