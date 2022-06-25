@@ -7,7 +7,7 @@ const HDWalletProvider = require('@truffle/hdwallet-provider');
 const moment = require('moment-timezone');
 const numeral = require('numeral');
 const _ = require('lodash');
-const axios = require('axios')
+const axios = require('axios');
 
 // SERVER CONFIG
 const PORT = process.env.PORT || 5000
