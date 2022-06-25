@@ -5,7 +5,7 @@ const http = require('http');
 const Web3 = require('web3');
 const HDWalletProvider = require('@truffle/hdwallet-provider');
 const moment = require('moment-timezone');
-const numeral = require('numeral')
+const numeral = require('numeral');
 const _ = require('lodash')
 const axios = require('axios')
 
